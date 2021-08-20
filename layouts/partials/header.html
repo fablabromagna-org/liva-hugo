@@ -4,18 +4,17 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
 
-      <div >
+      <div>
         <a class="mx-auto desktop-view" href="{{ .Site.BaseURL }}">
-          <img 
-            height="" 
-            width="175" 
+          <img
+            style="max-width: 175px; height: auto" 
             class="img-fluid" 
             src="{{ .Site.Params.logo | absURL }}" 
             alt="{{ .Site.Title }}">
         </a>
       </div>
       
-      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img height="" width="125" class="img-fluid"
+      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img style="max-width: 125px; height: auto" class="img-fluid"
           src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
       </a>
       
